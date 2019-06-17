@@ -14,7 +14,7 @@ The input of each notebook is the directory in which the video lies.
 
 The Reprojection error is calculated in `Checkerboard_Calibrator.ipynb`
 
-To calculate the Real World error, a perspective transform is applied on the images, which warp the checkerboard corners to the 
+To calculate the Real World error, a perspective transform is applied on the images, which warps the checkerboard corners to the 
 actual corners.
 
 The Real world error across images and bins is calculated in `Checkerboard_Calibrator_Real_World.ipynb`. 
